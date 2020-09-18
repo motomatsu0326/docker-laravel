@@ -1,4 +1,4 @@
-# docker-laravel-handson
+# docker-laravel
 DockerでLaravel8の開発環境を構築
 
 ## 環境構築手順
