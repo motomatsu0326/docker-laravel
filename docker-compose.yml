@@ -7,7 +7,7 @@ services:
   web:
     image: nginx:1.18-alpine
     ports:
-      - 10080:80
+      - 8080:80
     volumes:
       - ./laravel:/work:delegated
       - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf:delegated
